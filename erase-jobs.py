@@ -3,7 +3,7 @@ from urllib import request, parse
 import json
 
 serverUrl = "https://gitlab.com/api/v4"
-projectId = input("Project: (e.g. gitlab/myproject)\n> ")
+projectId = input("Project: (e.g. mynamespace/myproject)\n> ")
 token = "your_api_token_here"
 
 erased_pipelines = 0
